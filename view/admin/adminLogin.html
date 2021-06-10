@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FlyCash Admin - Login</title>
+</head>
+
+<body>
+
+    <table style="border:2px solid black; border-collapse: collapse;" align="center" width="50%">
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;" align="right">
+
+                <img align="left" src="../../assets/flycash.png" alt="Logo" width="150" height="60">
+                <br>
+                <a href="../../Index.html">Home </a>|
+                <a href="registration.html">create an account</a>
+            </td>
+
+        </tr>
+
+        <tr>
+
+
+            <td style="border:2px solid black; border-collapse: collapse;">
+                <h1 align="center">Please login first</h1>
+
+                <form action="../../controller/admin/loginCheck.php" method="post">
+                    <br>
+                    <fieldset style="width:25%; margin:  0px auto;">
+
+
+                        <legend align="left"><b>LOGIN</b></legend>
+
+                        <input type="text" name="username" id='username' placeholder=" Enter User Name"><br><br>
+                        <input type="password" name="password" id='password' placeholder=" Enter Password">
+                        <hr>
+                        <input type="checkbox" name="remember_me" value="1"> <b>Remember Me</b><br><br>
+                        <input type="submit" name="submit" id='submit' value="Submit"> <a
+                            href="../controller/admin/forgotPassword.php">Forgot Password?</a>
+
+                    </fieldset>
+
+                    <br><br><br><br><br>
+                </form>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;" colspan="2" align="center">
+                <p>Copyright &#169; 2021</p>
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

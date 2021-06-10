@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FlyCash - Registration</title>
+</head>
+
+<body>
+
+
+
+    <table style="border:2px solid black; border-collapse: collapse;" align="center" width="50%">
+
+        <tr>
+
+
+            <td style="border:2px solid black; border-collapse: collapse;" align="right">
+
+                <img align="left" src="../../assets/flycash.png" alt="Logo" width="150" height="60">
+                <br>
+                <a href="../Index.html">Home </a>|
+                <a href="adminLogin.html">Login</a>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;">
+                <h5 align="center">Join FlyCash</h5>
+                <h1 align="center">Create your account</h1>
+
+                <br>
+                <fieldset style="width:50%; margin:  0px auto;">
+
+                    <legend><b>INFORMATION</b></legend>
+
+                    <br>
+
+                    <b>Name</b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input
+                        type="text" name="name" id="name">
+                    <hr>
+                    <b>Email</b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input
+                        type="email" name="email" id="email">
+                    <button title="hint:Sample@example.com"><b>i</b></button>
+                    <hr>
+                    <b>User Name</b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input
+                        type="text" name="username" id="username">
+                    <hr>
+                    <b>Password</b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input
+                        type="password" name="password" id="password">
+                    <hr>
+                    <b>Confirm Password</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="password" name="cpassword"
+                        id="cpassword">
+                    <hr>
+
+                    <fieldset>
+
+                        <legend><b>Gender</b></legend>
+
+                        <input type="radio" name="gender" id="Gender" value="Male"> <b>Male</b>
+                        <input type="radio" name="gender" id="Gender" value="Female"> <b>Female</b>
+                        <input type="radio" name="gender" id="Gender" value="Other"> <b>Other</b>
+
+                    </fieldset>
+
+                    <hr>
+
+                    <fieldset>
+
+                        <legend><b>Date of Birth</b></legend>
+
+                        <input type="date" name="dob" id="dob" size="1"><b> (dd/ mmm/yyyy)
+
+                    </fieldset>
+                    <hr>
+
+                    <input type="submit" name="submit" value="Submit" id="submit" onclick="regCheck()">
+                    <input type="Reset" name="Reset" value="Reset">
+
+
+                </fieldset>
+                <br><br><br><br><br>
+                <h2 align="center" id="Message"></h2>
+
+
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="2" align="center">
+                <p>Copyright &#169; 2021</p>
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <script type="text/javascript" src="../../scripts/validation.js"></script>
+
+</body>
+
+</html>
